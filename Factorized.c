@@ -5,15 +5,15 @@
 #include<string.h>
 #include<stdlib.h>
 
- long long factorialize(long long num) {
+ long long factorialize(int num) {
 
   long long r=num;
 if (r==0){
   num=1;
 }
- for (int i=1; i<r; i++){
+ for (int i=1; i<num; i++){
 
-     num=num * i;
+     r=r * i;
 
 
   }

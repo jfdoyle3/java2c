@@ -23,11 +23,11 @@ int somefib(int num)
      int tmp=next%2;
      int p=0;
     if(tmp ==1){
-      p=1;
+      p=p+next;
 
     }
     printf("next= %d  first=  %d second= %d\n", next, first, second);
-    printf("                                  temp= %d\n",p );
+    printf("                                  p= %d\n",p );
    }
 
   return num;
